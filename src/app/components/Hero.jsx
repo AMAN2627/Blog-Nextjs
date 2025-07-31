@@ -13,7 +13,7 @@ export default function Hero() {
           className="w-full md:w-1/2 h-96 object-cover transition-transform hover:scale-105 duration-300"
         />
         <div className="p-6 md:w-1/2">
-          <p className="mb-4 text-gray-600 text-2xl">
+          <p className="mb-4 text-gray-600">
             Kyoto, Japan's ancient capital, offers a serene escape from modern
             life. With over 2,000 temples and gardens, the city moves at the
             pace of flowing water and rustling bamboo.

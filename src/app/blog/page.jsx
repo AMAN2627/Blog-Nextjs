@@ -9,7 +9,7 @@ export default function BlogPage() {
         <h1 className="text-3xl font-bold text-center mb-6">
           Kyoto Travel Blog
         </h1>
-        <p className="text-center text-gray-700 mb-10 text-3xl">
+        <p className="mt-4 text-lg text-gray-600 hover:text-gray-800 transition duration-300">
           Explore the charm, history, and hidden corners of Kyoto through these
           featured blog posts.
         </p>
