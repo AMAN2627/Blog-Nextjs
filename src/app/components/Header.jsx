@@ -1,5 +1,5 @@
-// src/app/components/Header.jsx
-"use client"; // required when using <Link> with navigation
+
+"use client"; 
 
 import Link from "next/link";
 
@@ -22,13 +22,13 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <a href="#contact" className="hover:bg-white/20 px-4 py-0 rounded">
+            <Link href="#contact" className="hover:bg-white/20 px-4 py-0 rounded">
               CONTACT
-            </a>
+            </Link>
           </li>
+          
         </ul>
       </nav>
-      <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-accent to-pink-400"></div>
     </header>
   );
 }
