@@ -74,6 +74,7 @@ export default function ContactForm() {
                 className="mb-3 bg-gray-100 p-3 rounded border-l-4 border-accent"
               >
                 <p className="font-medium">{c.name}</p>
+                <p className="font-medium text-primary">{c.email}</p>
                 <p className="text-sm text-gray-600">{c.comment}</p>
               </li>
             ))}
