@@ -14,7 +14,6 @@ export default function BlogPage() {
           featured blog posts.
         </p>
 
-        {/* Blog Posts */}
         <div className="space-y-8">
           <article className="bg-white p-6 shadow-md rounded-lg">
             <h2 className="text-xl font-semibold mb-2">

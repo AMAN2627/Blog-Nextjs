@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-sky-950 text-white shadow-lg">
+    <header className="bg-sky-950 text-white shadow-lg" >
       <h1 className="font-heading text-4xl text-center mb-2 drop-shadow-md">
         Kyoto
       </h1>
